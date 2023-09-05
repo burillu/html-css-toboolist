@@ -18,6 +18,7 @@ colore badge light-green:#B0C926
 }
 body{
     background-color: #F6F8F9;
+    /* font-size: 16px; */
 }
 header{
     padding: 10px 20px;
@@ -38,7 +39,7 @@ ul{
     padding: 10px;
 }
 li{
-    padding: 15px 30px;
+    padding: 10px 30px;
 }
 .main-top{
     padding: 10px 60px 5px;
@@ -85,12 +86,37 @@ h1{
     text-align: center;
     color: rgb(62, 238, 62);
     border: 1px solid rgb(62, 238, 62);
+    margin: 0px 5px
 }
 .bullet-not-done{
     color:red;
     border: 1px solid red;
 }
-/* .bullet-done{
-    color: rgb(62, 238, 62);
-    border: 1px solid rgb(62, 238, 62);
-} */
+.badge{
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    font-size: 0.6em;
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color: gray;
+}
+.badge.blue2{
+    background-color:#45ABEA;
+}
+.badge.lilla{
+    background-color:#9C72E4;
+}
+.badge.green{
+    background-color: #64C0A9;
+}
+.badge.orange{
+    background-color: #F29E33 ;
+}
+.badge.pink{
+    background-color:#D863A1;
+}
+.badge.light-green{
+    background-color: #B0C926;
+}

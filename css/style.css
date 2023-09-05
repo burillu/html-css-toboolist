@@ -80,9 +80,12 @@ button.grey{
     vertical-align: -50%;
 
 }
-h4{
+.li-title{
     display: inline-block;
     font-size: 1.3em;
+}
+.first-li{
+    padding:0;
 }
 h1{
     display: inline-block;

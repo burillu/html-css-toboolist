@@ -19,18 +19,32 @@ colore badge light-green:#B0C926
 body{
     background-color: #F6F8F9;
 }
+header{
+    padding: 10px 20px;
+    
+}
+.align-img{
+    vertical-align: -90%;
+}
 header, main div{
     background-color: white;
 }
-
+main{
+    margin: 25px auto 20px;
+    width: 80%;
+}
+.main-top{
+    padding: 10px 60px 5px;
+    margin-bottom: 2px;
+}
 button{
     border: none;
-    padding: 10px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 4px;
-    font-size: small;
+    font-size: 0.6em;
     font-weight: bold;
     width: auto;
     height: 3em;
@@ -49,6 +63,9 @@ button.grey{
     width: 30px;
 
 }
-h3{
+h4{
+    display: inline-block;
+}
+h1{
     display: inline-block;
 }

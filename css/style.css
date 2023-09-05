@@ -1,15 +1,42 @@
 /* 
 colore sfondo body:#F6F8F9
-colore 
+colore bottone blu: #47ADF1
+colore badge blue2: #45ABEA 
+colore badge lilla:#9C72E4
+colore badge green:#64C0A9
+colore badge orange:#F29E33
+colore badge pink: #D863A1
+colore badge light-green:#B0C926
 
 */
 
 
-/* *{
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
-} */
+}
 body{
     background-color: #F6F8F9;
+}
+header, main div{
+    background-color: white;
+}
+button{
+    border-radius: 4px;
+    font-size: small;
+    font-weight: bold;
+    width: 100px;
+    height: 3em;
+}
+button.blue{
+    background-color: #45ABEA;
+    color: white;
+}
+.triangle{
+    width: 30px;
+
+}
+h3{
+    display: inline-block;
 }
